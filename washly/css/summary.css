@@ -1,0 +1,124 @@
+/* Summary */
+.summaryContainer{
+  background-image:url("/img/summary.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+    background-color:#fcfeff;
+    width:700px;
+    height:520px;
+    margin: 70px auto;
+    border-radius: 16px;
+    font-family: 'Product Sans Regular';
+    font-weight: normal;
+    box-shadow:  4px 7px 8px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  .summaryNavBar{
+    box-shadow: 0 4px 2px -2px #B3B3B3;
+    width:100px;
+   margin: 0px 295px;
+    padding-top:0px;
+    padding-bottom: 0px;
+   font-family: 'Product Sans Regular';
+   text-align:center;
+   font-size:18px;
+   font-weight:bold;
+   color: #384047;
+   height:55px;
+   margin-bottom:-5px;
+  
+  }
+  .summaryNavBar>p{
+     padding-top: 28px;
+  }
+  
+  .summaryContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .summaryContent>.total{
+    font-size:18px;
+    font-weight: bold;
+    color: #000000;
+    margin-top:40px;
+  }
+  .summaryContent>.sum{
+    color:#384047;
+    margin-top:5px;
+  }
+  .summaryCard{
+    background: #fcfeff;
+    margin:20px auto;
+    width:300px;
+    height:200px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    padding:20px;
+  
+  }
+  .summaryCard>div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  .summary-card-title{
+    margin-bottom:20px;
+  }
+  .summary-card-content{
+    margin-bottom: 10px;
+    box-shadow: 0 2px 1px -1px #B3B3B3;
+  }
+  .more{
+    box-shadow:none;
+    color:#5170FD;
+    font-weight:bold;
+  }
+  .summary-quantity{
+      padding-right: 30px;
+  }
+  .summaryButton{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 40px 100px;
+  }
+  button{
+    width:150px;
+    height:40px;
+    border:none;
+    border-radius: 4px;
+  }
+  .buttonLeft{
+     font-size:20px;
+     position:absolute;
+     left:450px;
+     top:507px;
+  }
+  .buttonRight{
+    font-size:20px;
+    position:absolute;
+    left:915px;
+    top:508px;
+  }
+  .button-left{
+    border:1px solid #5170FD;
+    background:white;
+     color:#5170FD;
+     font-weight: bold;
+  }
+  .button-left:hover{
+    background:#5170FD;
+    color:white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 12px 0 rgba(0, 0, 0, 0.1);
+  }
+  .button-right{
+    background:#5170FD;
+    color:white;
+    width:200px;
+    height:40px;
+    font-weight: bold;
+  }
+  .button-right:hover{
+    background:#5170FD;
+    color:white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 12px 0 rgba(0, 0, 0, 0.1);}

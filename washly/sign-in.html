@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Washly</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/booking.css" rel="stylesheet">
+    <link href="css/delivery.css" rel="stylesheet">
+    <link href="css/info.css" rel="stylesheet"> 
+    <link href="css/logged-in.css" rel="stylesheet"> 
+	<link href="css/main-page.css" rel="stylesheet">
+    <link href="css/register.css" rel="stylesheet">
+    <link href="css/result-page.css" rel="stylesheet"> 
+	<link href="css/sign-in.css" rel="stylesheet">
+    <link href="css/summary.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+    
+        <div class="container">
+            <form class="loginform form">
+            <div><div>
+            <p class="second-text">Welcome back, Login</p>
+           </div></div>
+            
+            <label class="signInLabel">Email</label>
+            <input id="loginemail"  class="signInInput" type="text" placeholder="example@email.com"/>
+            <label class="signInLabel">Password</label>
+            <input id="loginpass" class="signInInput" type="password" placeholder="enter your password"/> 
+            
+            
+            <button  type="submit" class="signInButton"><a class="signInButtonLink" href="/logged-in.html">Login</a></button>
+            <h6 id="state"></h6>
+            <h6 id="text"></h6>
+            <a  href="/" class="newUser">Forgot Password?</a>
+            <button class="signIngoogle">Login with Google</button>
+            <img class="sign-in-search-icon" src="./img/search.png"/>
+            <div class="move"><p>Don't have an account? <span class="makemeblue"><a href="/register.html">Sign up</a></span></p></div>
+            </div>
+           
+            </form>
+            <script src="./js/signin.js"></script>
+            <script src="./js/auth.js"></script>
+          
+         </div>
+    </body>
+    </html>

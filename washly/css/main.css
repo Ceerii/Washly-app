@@ -1,0 +1,10 @@
+*{
+    padding:0;
+    margin:0;
+ }
+ @import url('https://fonts.googleapis.com/css?family=Lato|Rubik+Mono+One&display=swap');
+ 
+ @font-face {
+   font-family: 'Product Sans Regular';
+   src: url("Product\ Sans\ Regular.ttf"); /* IE9 Compat Modes */
+ }
